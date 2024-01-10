@@ -165,18 +165,21 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <div className="flex flex-row max-w-full justify-around">
+                    <div className="flex flex-row max-w-full justify-around my-[50px]">
                         <Image src={Banner2} alt="banner 2" className="w-[500px] h-[400px]"/>
-                        <div className="flex flex-col w-[300px] justify-center">
-                            <p className="text-[20px] font-bold text-blue-950">Win the battle.
+                        <div className="flex flex-col w-[300px] justify-center gap-[10px] ">
+                            <div>
+                                <p className="text-[20px] font-bold text-blue-950">Win the battle.
                                 </p>
-                            <p className="text-[20px] font-bold text-blue-950">
-                                Be the Champion.</p>
+                                <p className="text-[20px] font-bold text-blue-950">
+                                    Be the Champion.</p>
+                            </div>
+
 
                             <p>
                                 Kami menyediakan jutaan cara untuk membantu players menjadi pemenang sejati
                             </p>
-                            <div className=>
+                            <div className="bg-gray-300 text-white p-2 w-[100px] rounded-xl">
                                 Read Story
                             </div>
                         </div>
