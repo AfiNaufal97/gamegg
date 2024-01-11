@@ -15,8 +15,8 @@ const DropdownComp = (category:Category) =>{
     };
 
     return (
-        <div className="relative">
-            <p className="text-[#0C145A] font-medium text-[15px]">
+        <div className="relative mb-5">
+            <p className="text-mycolors-navy font-medium text-[15px]">
                 {category.title}
             </p>
             <button
