@@ -10,17 +10,20 @@ import Item3 from "../assets/images/item3.png"
 import Item4 from "../assets/images/item4.png"
 import Item5 from "../assets/images/item5.png"
 import Banner2 from "../assets/images/cover.png"
+import Logo from "../assets/icons/logo.png"
+import FooterComp from "@/app/component/footer";
 
 export default function Home() {
     return (
         <main>
-            <div className="max-w-full max-h-full mx-[120px]">
+            <div className="max-w-full max-h-full">
                 <section>
+
                     <NavbarComp/>
                 </section>
 
                 <section>
-                    <div className='flex flex-row justify-between items-center'>
+                    <div className='flex flex-row justify-between items-center mx-[120px]'>
                         <div>
                             <p className='text-[#7E8CAC]'>
                                 Halo gamers,
@@ -50,7 +53,7 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <div className='flex flex-col max-w-full items-center mt-[50px]'>
+                    <div className='flex flex-col max-w-full items-center mt-[50px] mx-[120px]'>
                         <p className='font-bold text-[#0C145A] text-[18px] '>
                             It’s Really That
                         </p>
@@ -116,7 +119,7 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <div className='flex flex-col mt-[50px]'>
+                    <div className='flex flex-col mt-[50px] mx-[120px]'>
                         <p className='text-[#0C145A] text-[20px] font-bold'>
                             Our Featured
                         </p>
@@ -142,7 +145,7 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <div className="flex flex-row gap-[50px] max-w-full justify-center my-[50px]">
+                    <div className="flex flex-row gap-[50px] max-w-full justify-center my-[50px] mx-[120px]">
                         <div>
                             <p className="font-bold text-[18px] text-[#0C145A]">290M+</p>
                             <p className="font-normal text-[#7E8CAC] text-[15px]">Players Top Up</p>
@@ -165,7 +168,7 @@ export default function Home() {
                 </section>
 
                 <section>
-                    <div className="flex flex-row max-w-full justify-around my-[50px]">
+                    <div className="flex flex-row max-w-full justify-around my-[50px] mx-[120px]">
                         <Image src={Banner2} alt="banner 2" className="w-[500px] h-[400px]"/>
                         <div className="flex flex-col w-[300px] justify-center gap-[10px] ">
                             <div>
@@ -184,6 +187,11 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
+                </section>
+
+
+                <section>
+                    <FooterComp/>
                 </section>
 
 

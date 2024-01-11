@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "../../../assets/icons/logo.png"
 const NavbarComp = () => {
-    return <div className="max-w-full flex flex-row justify-between  my-[40px]">
+    return <div className="max-w-full flex flex-row justify-between  my-[40px] mx-[120px]">
         <div>
             <Image src={Logo} alt="logo" className='w-[50px] h-[50px]'/>
         </div>
